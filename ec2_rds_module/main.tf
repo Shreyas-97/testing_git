@@ -4,8 +4,7 @@
 
 provider "aws" {
   region = var.region
-  access_key = "AKIA47CRXYGTCRC7SXCK"
-  secret_key = "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"
+
 }
 
 resource "aws_db_instance" "education" {
